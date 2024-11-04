@@ -13,6 +13,82 @@
         android:theme="@style/Theme.Tugas_prak_BP3_M2"
         tools:targetApi="31">
         <activity
+            android:name=".keliling_jajar_genjang"
+            android:exported="false" />
+        <activity
+            android:name=".luas_jajar_genjang"
+            android:exported="false" />
+        <activity
+            android:name=".Keliling_belah_ketupat"
+            android:exported="false" />
+        <activity
+            android:name=".luas_belah_ketupat"
+            android:exported="false" />
+        <activity
+            android:name=".keliling_layang_layang"
+            android:exported="false" />
+        <activity
+            android:name=".luas_layang_layang"
+            android:exported="false" />
+        <activity
+            android:name=".keliling_trapesium"
+            android:exported="false" />
+        <activity
+            android:name=".luas_trapesium"
+            android:exported="false" />
+        <activity
+            android:name=".luas_persegi_panjang"
+            android:exported="false" />
+        <activity
+            android:name=".keliling_persegi_panjang"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_segitiga"
+            android:exported="false" />
+        <activity
+            android:name=".sisi_miring_segitiga"
+            android:exported="false" />
+        <activity
+            android:name=".keliling_segitiga"
+            android:exported="false" />
+        <activity
+            android:name=".luas_segitiga"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_lingkaran"
+            android:exported="false" />
+        <activity
+            android:name=".luas_lingkaran"
+            android:exported="false" />
+        <activity
+            android:name=".keliling_lingkaran"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_persegi"
+            android:exported="false" />
+        <activity
+            android:name=".luas_persegi"
+            android:exported="false" />
+        <activity
+            android:name=".keliling_persegi"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_persegi_panjang"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_trapesium"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_layang_layang"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_belah_ketupat"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_jajar_genjang"
+            android:exported="false" />
+
+        <activity
             android:name=".DashboardActivity"
             android:exported="false" />
         <activity
