@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class dashboard_utama extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
 
     private Button btnSegitiga, btnPersegi, btnTrapesium, btnBelahKetupat;
     private Button btnLingkaran, btnPersegiPanjang, btnLayang, btnJajarGenjang;
@@ -30,7 +30,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnSegitiga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_segitiga.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_segitiga.class);
                 startActivity(intent);
             }
         });
@@ -38,7 +38,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnPersegi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_persegi.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_persegi.class);
                 startActivity(intent);
             }
         });
@@ -46,7 +46,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnTrapesium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_trapesium.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_trapesium.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +54,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnBelahKetupat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_belah_ketupat.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_belah_ketupat.class);
                 startActivity(intent);
             }
         });
@@ -62,7 +62,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnLingkaran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_lingkaran.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_lingkaran.class);
                 startActivity(intent);
             }
         });
@@ -70,7 +70,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnPersegiPanjang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_persegi_panjang.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_persegi_panjang.class);
                 startActivity(intent);
             }
         });
@@ -78,7 +78,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnLayang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_layang_layang.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_layang_layang.class);
                 startActivity(intent);
             }
         });
@@ -86,7 +86,7 @@ public class dashboard_utama extends AppCompatActivity {
         btnJajarGenjang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(dashboard_utama.this, dashboard_jajar_genjang.class);
+                Intent intent = new Intent(DashboardActivity.this, dashboard_jajar_genjang.class);
                 startActivity(intent);
             }
         });
